@@ -14,7 +14,7 @@ import penguin from "./image/penguin2.jpg"
 import cat from "./image/cat.jpg"
 import rhino from "./image/rhino.png"
 
-export default {
+const animals = {
     lion,
     cham,
     dolphin,
@@ -31,3 +31,5 @@ export default {
     cat,
     rhino
 }
+
+export default animals;

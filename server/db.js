@@ -1,15 +1,18 @@
 export const mainCardsDB = [
     {
+      id: "1",
       title: 'Recently Viewed',
-      image: 'https://pic.com/lion1.png',
+      image: 'lion',
     },
     {
+      id: "2",
       title: 'Some Title',
-      image: 'https://pic.com/penguin1.png',
+      image: 'penguin',
     },
     {
+      id: "3",
       title: 'Some More Title',
-      image: 'https://pic.com/cat1.png',
+      image: 'cat',
     }
 ];
 

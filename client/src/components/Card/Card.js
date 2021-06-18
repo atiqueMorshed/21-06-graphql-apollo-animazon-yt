@@ -1,5 +1,4 @@
 import React from 'react'
-import lion from "../../assets/image/lion2.jpg"
 import "./Card.css"
 import star from "../../assets/svg/star.svg"
 import animal from "../../assets/images"
@@ -8,7 +7,7 @@ import { Link } from 'react-router-dom'
 function Card(props) {
     return (
         <Link to={`/product/${props.animal.slug}`} className="Card">
-            <img className="main-img" src={animal[props.animal.img]}/>
+            <img className="main-img" src={animal[props.animal.image]}/>
             <h4>
                 {props.animal.title}
             </h4>

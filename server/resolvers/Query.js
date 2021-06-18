@@ -1,5 +1,5 @@
 export const Query = {
-    mainCards: () => mainCardsDB,
+    mainCards: (parent, args, {mainCardsDB}) => mainCardsDB,
     
     animals: (parent, args, {animalsDB}) => animalsDB,
     animal: (parent, args, {animalsDB}) => {

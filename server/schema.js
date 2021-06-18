@@ -2,6 +2,7 @@ import {gql} from 'apollo-server';
 
 const typeDefs = gql`
   type MainCard {
+    id: ID!
     title: String!
     image: String!
   }
@@ -9,9 +10,9 @@ const typeDefs = gql`
     id: ID!
     image: String!
     title: String!
-    rating: Float!
+    rating: Float
     price: String!
-    delivery: String!
+    delivery: String
     description: [String!]!
     stock: Int!
     onSale: Boolean
